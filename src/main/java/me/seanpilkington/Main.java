@@ -32,6 +32,7 @@ public class Main {
 
     // Getters
     public ShardManager getShardManager() {
+        System.out.println("Shard Manager Returned");
         return shardManager;
     }
 }
